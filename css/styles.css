@@ -200,6 +200,7 @@ img {
         border: none;
         padding: 0;
         margin-left: auto;
+        margin-right: 15px;
     }
     
     .header-menu-hamburger {
@@ -1198,6 +1199,10 @@ img {
     list-style: none;
 }
 
+.menu-toggle {
+    margin-right: 15px;
+}
+
 .mobile-item {
     font-weight: 700;
     font-size: 36px;
@@ -1219,6 +1224,18 @@ img {
     display: flex;
     justify-content: flex-start;
     gap: 56px;
+}
+
+.menu-link,
+.contact-link {
+    transition: color var(--trans-descrp);
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
 }
 
 
