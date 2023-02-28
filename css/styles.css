@@ -375,7 +375,7 @@ img {
     }
 
     .hero-header {
-        width: 496px;
+        max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
         margin-bottom: 40px;
@@ -386,7 +386,7 @@ img {
     .hero-section {
         padding-top: 188px;
         padding-bottom: 188px;
-        min-width: 1200px;
+        min-width: 1440px;
     }
     
     .hero-header {
@@ -988,6 +988,7 @@ img {
     transform: translate(-50%, -50%);
 
     max-width: 392px;
+    width: 95%;
     min-height: 576px;
     padding-top: 72px;
     padding-right: 24px;
