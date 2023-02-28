@@ -330,7 +330,7 @@ img {
 }
 
 .hero-header {
-    width: 320px;
+    max-width: 320px;
     font-size: 36px;
     line-height: 1.11;
     color: var(--white-color);
@@ -987,7 +987,7 @@ img {
     left: calc(50%);
     transform: translate(-50%, -50%);
 
-    width: 392px;
+    max-width: 392px;
     min-height: 576px;
     padding-top: 72px;
     padding-right: 24px;
@@ -1231,6 +1231,7 @@ img {
     justify-content: flex-start;
     gap: 56px;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .menu-link,
